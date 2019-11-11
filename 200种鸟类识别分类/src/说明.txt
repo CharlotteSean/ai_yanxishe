@@ -1,0 +1,12 @@
+运行环境：
+- GPU
+- python 2.7+
+- python 库：见 `requirements.txt`
+
+运行步骤：
+1. 下载数据：https://dwz.cn/ijPVPQhz
+2. 解压并将 `test_set` 文件夹放入 `data/`
+3. 进入 `data/`，运行 `python prepare_data.py`
+4. 返回上一级，下载 https://web-fg-data.oss-cn-hongkong.aliyuncs.com/Model/WEB300-demo-89.44.pth
+5. 运行 `python infer.py` 即可得到预测结果
+
